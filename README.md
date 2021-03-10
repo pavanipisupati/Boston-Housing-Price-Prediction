@@ -20,8 +20,8 @@
 3. Start the Docker container
 4. Open the command prompt and run following commands:
     1. Go to the directory that has unzipped code file 
-    2. run 'docker build -t Boston-model .' command
-    3. run 'docker run -d -p 8080:8080 Boston-model' command
+    2. run `docker build -t Boston-model .` command
+    3. run `docker run -d -p 8080:8080 Boston-model` command
 5. Open Docker Dashboard and see the boston-model up and running
 6. Open Postman and follow:
     1. change the HTTP method to 'POST' from dropdown
