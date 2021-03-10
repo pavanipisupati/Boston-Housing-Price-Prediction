@@ -64,4 +64,4 @@
 5. Get the coverage report using
     `coverage report -m`
 6. A coverage report looks something like this:
-
+    ![Alt text](/images/Screen Shot 2021-03-10 at 1.23.41 PM.png?raw=true "Coverage Report")
