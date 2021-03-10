@@ -33,21 +33,23 @@
 
 ### Steps to deploy in AWS Lambda using Zappa
 1. Zappa requires a virtual environment
-2. Create a virtual env for zappa using\n
-    python -m venv venv
-3. Activate the virtual env by \n
-    source venv/bin/activate
+2. Create a virtual env for zappa using
+    `python -m venv venv`
+3. Activate the virtual env by 
+    `source venv/bin/activate`
 4. Install all the required python modules used by the app as
-    pip install pandas, sklearn,...(use pip for each module separately)
-5. Initialize zappa \n
-    zappa init
+    `pip install pandas, sklearn,...(use pip for each module separately)`
+5. Initialize zappa
+    `zappa init`
 6. The above command prompts a few questions like dev/production, aws profile, s3-bucket name
 7. Specify all the values in the prompts
 8. It then generates a 'zappa_settings.json' file based on the values specified
 9. Deploy the application
-    zappa deploy dev
+    `zappa deploy dev`
 10. It runs and deploys the application and returns a message
     Deployment complete! Link - https://hx9ykomgta.execute-api.us-west-2.amazonaws.com/dev (changes with every deployment)
 11. Open postman and add a request body with POST and the url is:
     https://hx9ykomgta.execute-api.us-west-2.amazonaws.com/dev/predict
 12. We can see the prediction in the response when we send the request.
+13. We can undeploy using
+    `zappa undeploy dev`
