@@ -47,9 +47,9 @@
 9. Deploy the application
     `zappa deploy dev`
 10. It runs and deploys the application and returns a message
-    Deployment complete! Link - https://hx9ykomgta.execute-api.us-west-2.amazonaws.com/dev (changes with every deployment)
+    Deployment complete! Link - https://lokd199fea.execute-api.us-east-2.amazonaws.com/dev (changes with every deployment)
 11. Open postman and add a request body with POST and the url is:
-    https://hx9ykomgta.execute-api.us-west-2.amazonaws.com/dev/predict
+    https://lokd199fea.execute-api.us-east-2.amazonaws.com/dev/predict
 12. We can see the prediction in the response when we send the request.
 13. We can undeploy using
     `zappa undeploy dev`
