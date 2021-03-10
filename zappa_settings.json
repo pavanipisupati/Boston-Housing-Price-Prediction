@@ -1,0 +1,10 @@
+{
+    "dev": {
+        "app_function": "app.server_app.app",
+        "profile_name": "ce",
+        "project_name": "zappa-boston-app",
+        "runtime": "python3.8",
+        "s3_bucket": "zappa-boston-bucket",
+        "slim_handler":"true"
+    }
+}
