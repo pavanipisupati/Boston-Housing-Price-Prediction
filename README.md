@@ -53,3 +53,13 @@
 12. We can see the prediction in the response when we send the request.
 13. We can undeploy using
     `zappa undeploy dev`
+
+### Unit testing and Code coverage
+1. Test files are placed inside the `tests/` folder.
+2. The files test the api calls for valid and invalid/incomplete input requests
+3. To get the coverage report of the code executed, we need to install coverage
+    `pip install coverage`
+4. Run the following command to test the api test class
+    `coverage run app/server_app.py`
+5. Get the coverage report using
+    `coverage report -m`
