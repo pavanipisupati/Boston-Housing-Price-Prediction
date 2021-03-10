@@ -65,9 +65,4 @@
     `coverage report -m`
 6. A coverage report looks something like this:
 
-`pavanipisupati@Pavanis-MacBook-Pro zappa_boston_app % coverage report -m
-Name                Stmts   Miss  Cover   Missing
--------------------------------------------------
-app/server_app.py      41      0   100%
--------------------------------------------------
-TOTAL                  41      0   100%`
+
