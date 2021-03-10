@@ -33,13 +33,13 @@
 
 ### Steps to deploy in AWS Lambda using Zappa
 1. Zappa requires a virtual environment
-2. Create a virtual env for zappa using
+2. Create a virtual env for zappa using\n
     python -m venv venv
-3. Activate the virtual env by
+3. Activate the virtual env by \n
     source venv/bin/activate
 4. Install all the required python modules used by the app as
     pip install pandas, sklearn,...(use pip for each module separately)
-5. Initialize zappa
+5. Initialize zappa \n
     zappa init
 6. The above command prompts a few questions like dev/production, aws profile, s3-bucket name
 7. Specify all the values in the prompts
