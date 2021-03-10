@@ -50,6 +50,7 @@
     Deployment complete! Link - https://lokd199fea.execute-api.us-east-2.amazonaws.com/dev (changes with every deployment)
 11. Open postman and add a request body with POST and the url is:
     https://lokd199fea.execute-api.us-east-2.amazonaws.com/dev/predict
+    (Can get a sample test json from tests/ folder test.py file. The above link is active and can send request anytime!)
 12. We can see the prediction in the response when we send the request.
 13. We can undeploy using
     `zappa undeploy dev`
