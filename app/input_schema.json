@@ -1,0 +1,60 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "CRIM": {
+      "type": "number"
+    },
+    "ZN": {
+      "type": "number"
+    },
+    "INDUS": {
+      "type": "number"
+    },
+    "CHAS": {
+      "type": "number"
+    },
+    "NOX": {
+      "type": "number"
+    },
+    "RM": {
+      "type": "number"
+    },
+    "AGE": {
+      "type": "number"
+    },
+    "DIS": {
+      "type": "number"
+    },
+    "RAD": {
+      "type": "number"
+    },
+    "TAX": {
+      "type": "number"
+    },
+    "PTRATIO": {
+      "type": "integer"
+    },
+    "B": {
+      "type": "number"
+    },
+    "LSTAT": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "CRIM",
+    "ZN",
+    "INDUS",
+    "CHAS",
+    "NOX",
+    "RM",
+    "AGE",
+    "DIS",
+    "RAD",
+    "TAX",
+    "PTRATIO",
+    "B",
+    "LSTAT"
+  ]
+}
